@@ -1,0 +1,67 @@
+updateCenter.post(
+{
+  "id": "your-update-center",
+  "plugins": {"docker-plugin":   {
+    "buildDate": "Oct 27, 2017",
+    "compatibleSinceVersion": "0.17",
+    "dependencies":     [
+            {
+        "name": "bouncycastle-api",
+        "optional": false,
+        "version": "2.16.2"
+      },
+            {
+        "name": "docker-commons",
+        "optional": false,
+        "version": "1.8"
+      },
+            {
+        "name": "docker-java-api",
+        "optional": false,
+        "version": "3.0.14"
+      },
+            {
+        "name": "durable-task",
+        "optional": false,
+        "version": "1.3"
+      },
+            {
+        "name": "ssh-slaves",
+        "optional": false,
+        "version": "1.6"
+      },
+            {
+        "name": "token-macro",
+        "optional": false,
+        "version": "1.7"
+      }
+    ],
+    "developers": [    {
+      "developerId": "ndeloof",
+      "name": "Nicolas De Loof"
+    }],
+    "excerpt": "Provide Cloud Provisioning and other Docker features",
+    "gav": "com.nirima:docker-plugin:1.0.4",
+    "labels":     [
+      "cloud",
+      "cluster"
+    ],
+    "name": "docker-plugin",
+    "releaseTimestamp": "2017-10-27T22:55:30.00Z",
+    "requiredCore": "2.19.3",
+    "sha1": "GAuklLIuIOncrZaEw5BgjpsFU7Q=",
+    "title": "Docker plugin",
+    "url": "https://artifactrepo-dev.jnj.com/artifactory/test-maven-release/docker-plugin.hpi",
+    "version": "1.0.4",
+    "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin"
+  }},
+  "signature":   {
+    "certificates": ["MIICfDCCAeWgAwIBAgIJAMu58oFl5iC1MA0GCSqGSIb3DQEBCwUAMFcxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApuZXcgamVyc2V5MRUwEwYDVQQHDAxEZWZhdWx0IENpdHkxHDAaBgNVBAoME0RlZmF1bHQgQ29tcGFueSBMdGQwHhcNMTcxMTAyMTgzMjI2WhcNMjAxMTAxMTgzMjI2WjBXMQswCQYDVQQGEwJVUzETMBEGA1UECAwKbmV3IGplcnNleTEVMBMGA1UEBwwMRGVmYXVsdCBDaXR5MRwwGgYDVQQKDBNEZWZhdWx0IENvbXBhbnkgTHRkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/7FqwBiw2tW3Kcas0Z5+zPjdoDU9jrRGaqP8+c2Uy/5CjyJN9nUnSnxlzSt1WlUPDncq4xBIaqqx2LEATxAWZjM1KaLYx4tjB2IhMz5/o/d6LzACELH4pCuRmYnVgPzhu6qzXmT0T4mN0MTxsNoT8Blc4Jtrh2LnwbNxw8+R7twIDAQABo1AwTjAdBgNVHQ4EFgQUs7CnBnGRk/Rn8gYJIIw4g56YAb4wHwYDVR0jBBgwFoAUs7CnBnGRk/Rn8gYJIIw4g56YAb4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOBgQArGDDIFq3xdj60tO9+iZ/G84ToEGZy+F/xxB+/QY7J5GsGy6OOBz+HBsmLYwXiPIRMMxmon+BxRkkBJom3T520azNSRORVw8ylL6KYn0IaJvUFKSE/v1tgJt9eJ1qrgkH5VkSkrah+jueWUhui09GMqBHfLd14ZWJ8pzpUJhLAhg=="],
+    "correct_digest": "NbkrnkI43dQ9ahuKTNwcAC7iQoc=",
+    "correct_signature": "fG99/c+kT4ibaEf3LTEDVJdAPf9XVLVRU4M90crSsF1GIP2Eixg0jRaC/9NMsAX1oj5qhyaFjCVM0lPltgTGJ8zz7cWSV9NnToKcf0xVmXQqGsdoKxRKt05V4N3BC0v/acwI+QsiZD+gE3dS5Hz5NtYvBSxQon5qrXjCP8PRn4w=",
+    "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "signature": "qBYETfRjLm+z4xGcP53rXCYWqpJMuHJ5Y8NqXgUmwhTxHtGwTpnMgouZb92n20PzBUm3pG7fRyrrLd4SDleFySPnQAH/7cjzEYwvFJJ0jePc/O0gk5HfPjlIf7erjSTaYBjfiGgOMLjS3l7faPJ1m5N5gNNtJJlvdE5v9pu6CPA="
+  },
+  "updateCenterVersion": "1"
+}
+);

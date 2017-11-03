@@ -1,0 +1,13 @@
+{"releaseHistory": [{
+  "date": "Oct 27, 2017",
+  "releases": [  {
+    "firstRelease": true,
+    "gav": "com.nirima:docker-plugin:1.0.4",
+    "latestRelease": true,
+    "timestamp": 1509144930000,
+    "title": "Docker plugin",
+    "url": "https://plugins.jenkins.io/docker-plugin",
+    "version": "1.0.4",
+    "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin"
+  }]
+}]}
